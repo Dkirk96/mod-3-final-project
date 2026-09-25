@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -48,7 +47,7 @@ button {
 }
 
 .purple {
-  color:rgb(100, 21, 255);
+  color: rgb(100, 21, 255);
 }
 
 /* NAVIGATION BAR */
@@ -68,7 +67,6 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-
 
 .nav__logo {
   display: flex;
@@ -137,7 +135,6 @@ img {
   border-image: none;
 }
 
-
 /* MENU */
 
 .menu {
@@ -205,7 +202,7 @@ header .row {
 
 .header__email--input {
   width: 100%;
-  color:rgb(36, 62, 99);
+  color: rgb(36, 62, 99);
   font-size: 16px;
   font-weight: 500;
   position: absolute;
@@ -286,14 +283,15 @@ header .row {
   text-transform: uppercase;
 }
 
-#features .section__title, #pricing .section__title {
+#features .section__title,
+#pricing .section__title {
   text-align: center;
 }
 
 .section__title {
   font-size: 48px;
   font-weight: 900;
-  color:rgb(36, 62, 99);
+  color: rgb(36, 62, 99);
   line-height: 1.5;
   margin: 16px 0;
   letter-spacing: 0.2;
@@ -408,7 +406,6 @@ header .row {
   position: relative;
 }
 
-
 .steps__description {
   padding: 32px 0;
   margin-left: 68px;
@@ -431,7 +428,7 @@ header .row {
   display: flex;
   flex-direction: column;
   margin-left: 28px;
-  max-width: 360px
+  max-width: 360px;
 }
 
 .step__title {
@@ -451,7 +448,6 @@ header .row {
 
 /* VALUES */
 
-
 #values .row {
   display: flex;
   justify-content: space-between;
@@ -467,7 +463,8 @@ header .row {
   padding: 32px 64px 32px 0;
 }
 
-.values__description, .values__img {
+.values__description,
+.values__img {
   width: 50%;
 }
 
@@ -543,6 +540,7 @@ header .row {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: space-between;
 }
 
 .plan {
@@ -555,23 +553,36 @@ header .row {
   border-radius: 8px;
   background-color: white;
   text-align: center;
-  color:rgb(26, 32, 44);
-  box-shadow: 0px 0px 0px 0px, 0px 0px 0px 0px, 0px 1px 3px 0px, 0px 2px 2px 0px;
+  color: rgb(26, 32, 44);
+  box-shadow:
+    0px 0px 0px 0px,
+    0px 0px 0px 0px,
+    0px 1px 3px 0px,
+    0px 2px 2px 0px;
 }
 
-.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
+.plan:nth-child(1) .plan__stripe,
+.plan:nth-child(1) .plan__button {
   color: white;
   background: linear-gradient(115deg, lightblue, rgb(178, 178, 254));
 }
 
-.plan:nth-child(2) .plan__name, .plan:nth-child(2) .plan__price, .plan:nth-child(2) .plan__target, .plan:nth-child(2) .plan__duration, .plan:nth-child(2) .plan__feature
- {
+.plan:nth-child(2) .plan__name,
+.plan:nth-child(2) .plan__price,
+.plan:nth-child(2) .plan__target,
+.plan:nth-child(2) .plan__duration,
+.plan:nth-child(2) .plan__feature {
   color: #f7fafc;
 }
 
-.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
+.plan:nth-child(3) .plan__stripe,
+.plan:nth-child(3) .plan__button {
   color: white;
-  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178));
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178)
+  );
 }
 
 .plan__stripe {
@@ -592,15 +603,19 @@ header .row {
   line-height: 1.5;
 }
 
-.plan:nth-child(odd) .plan__name, .plan:nth-child(odd) .plan__price, .plan:nth-child(odd) .plan__target {
-  color:rgb(26, 32, 44);
+.plan:nth-child(odd) .plan__name,
+.plan:nth-child(odd) .plan__price,
+.plan:nth-child(odd) .plan__target {
+  color: rgb(26, 32, 44);
 }
 
 .plan__name {
   font-size: 20px;
 }
 
-.plan__name, .plan__price, .plan__duration {
+.plan__name,
+.plan__price,
+.plan__duration {
   font-weight: bold;
   line-height: 1.5;
 }
@@ -619,7 +634,8 @@ header .row {
   letter-spacing: 2px;
 }
 
-.plan:nth-child(1) .plan__middle, .plan:nth-child(3) .plan__middle {
+.plan:nth-child(1) .plan__middle,
+.plan:nth-child(3) .plan__middle {
   border-top: 2px solid lightgray;
   border-bottom: 2px solid lightgray;
 }
@@ -631,7 +647,6 @@ header .row {
   margin-left: -32px;
   margin-right: -32px;
   padding: 32px;
-  
 }
 
 .plan__target {
@@ -674,4 +689,9 @@ header .row {
 .plan:nth-child(2) .plan__button {
   color: rgb(178, 178, 254);
   background-color: white;
+}
+
+.plan:nth-child(2) .plan__middle {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
 }
